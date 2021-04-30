@@ -160,27 +160,46 @@ class Tzolkin {
     let cDate = date === undefined ? this._date : date
     let moonDays = 28
     let galacticNewYear = new Date(this._getGNY(cDate))
+    let currentDate = galacticNewYear
     let yearCalendar = []
     let moonCount = 0
 
     for(const moon in this._calendarData.moons) {
-      let currentMoon = `${this._calendarData.moons[moon].name} ${this._calendarData.moons[moon].totem} Moon`
-      let currentMonth = galacticNewYear
-      currentMonth = this._addDays(currentMonth, (moonCount * moonDays))
+      let moonName = `${this._calendarData.moons[moon].name} ${this._calendarData.moons[moon].totem} Moon`
+      let isLeapYear = this._isLeapYear(currentDate.getFullYear())
       moonCount += 1
+
+      // Add to number of days in the 'leap Moon' to account for day out of time
+      if(isLeapYear && moonCount === 8) moonDays += 1;
+      // Reset number of days in a Moon after 'leap month'
+      if(isLeapYear && moonCount === 9) moonDays = 28; 
+
       for(var d = 0; d < moonDays; d++) {
-        let currentDate = currentMonth
-        currentDate = this._addDays(currentDate, d)
-        let tzolkinCount = this._convertTzolkin(currentDate)
-        let currentTzolkin = this._tzolkin[tzolkinCount - 1]
-  
-        yearCalendar.push({
-          moon: currentMoon,
-          galacticDay : d + 1,
-          gregorianDay : currentDate,
-          weekDay : this._calendarData.days[d < 7 ? d : d % 7],
-          tzolkin : currentTzolkin
-        })
+
+        if(this._isLeapYear(currentDate.getFullYear()) && moonCount === 8 && d === 22) {
+          // Add the 'leap day' Day out of Time
+          yearCalendar.push({
+            moon: this._tzolkinData.leapDay.kinName,
+            galacticDay : '0.0',
+            gregorianDay : currentDate,
+            weekDay : { 'name': "Hunab'Ku"},
+            tzolkin : this._tzolkinData.leapDay
+          })
+          
+        }else{
+          // This is the standard sequence
+          let tzolkinCount = this._convertTzolkin(currentDate)
+          let currentTzolkin = this._tzolkin[tzolkinCount - 1]
+    
+          yearCalendar.push({
+            moon: moonName,
+            galacticDay : d + 1,
+            gregorianDay : currentDate,
+            weekDay : this._calendarData.days[ d < 7 ? d : d % 7],
+            tzolkin : currentTzolkin
+          })
+        }
+        currentDate = this._addDays(currentDate, 1)
       }
     }
   
@@ -194,8 +213,9 @@ class Tzolkin {
       weekDay : { 'name' : 'none' },
       tzolkin : dootTzolkin
     })
-
-   return yearCalendar
+  
+    console.log(yearCalendar[yearCalendar.length - 1])
+    return yearCalendar
   }
 
   _getGNY = (date) =>{
@@ -213,6 +233,10 @@ class Tzolkin {
     var result = new Date(date);
     result.setDate(result.getDate() + days);
     return result;
+  }
+
+  _isLeapYear = (year) => {
+    return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)
   }
 }
 

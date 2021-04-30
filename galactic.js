@@ -23,3 +23,4 @@ dalaiLama.showKin()                         // Display the Kin for the set day i
 console.log(`\n\n# Today`)
 today.showFullDate()                        // Display the Galactic Day and Kin in the console,
                                             // equivalent to .showDate() and .showKin() separately
+
