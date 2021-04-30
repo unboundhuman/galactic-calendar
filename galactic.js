@@ -8,7 +8,7 @@ const Tzolkin = require('./tzolkin/index.js')
  */
 
 
-const today = new Tzolkin(new Date())       // Instantiate with current date
+const today = new Tzolkin(new Date('2021-05-01'))       // Instantiate with current date
 const dalaiLama = new Tzolkin('1935-07-06') // Instantiate with a specific date
 
 // today.kin                                // Returns object with the kin of the instantiated day

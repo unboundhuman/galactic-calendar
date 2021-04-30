@@ -147,11 +147,8 @@ class Tzolkin {
     }
   
     let kinCount = countYear + countMonth + countDay
-    // console.log(kinCount)
     kinCount = kinCount < 261 ? kinCount : kinCount % 260
-    // console.log(kinCount)  
     kinCount = kinCount == 0 ? 260 : kinCount
-    // console.log(kinCount)
     
     return kinCount
   }
@@ -214,7 +211,6 @@ class Tzolkin {
       tzolkin : dootTzolkin
     })
   
-    console.log(yearCalendar[yearCalendar.length - 1])
     return yearCalendar
   }
 
