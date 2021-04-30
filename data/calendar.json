@@ -1,0 +1,170 @@
+{	"moons": {
+		"magnetic": {
+      "name": "Magnetic",
+			"tone": "1",
+			"totem": "Bat",
+			"gregorianStart": "July 26",
+			"gregorianEnd": "August 22"
+		},
+		"lunar": {
+      "name": "Lunar",
+			"tone": "2",
+			"totem": "Scorpion",
+			"gregorianStart": "August 23",
+			"gregorianEnd": "September 19"
+		},
+		"electric": {
+      "name": "Electric",
+			"tone": "3",
+			"totem": "Deer",
+			"gregorianStart": "September 20",
+			"gregorianEnd": "October 17"
+		},
+		"self-existing": {
+      "name": "Self-Existing",
+			"tone": "4",
+			"totem": "Owl",
+			"gregorianStart": "October 18",
+			"gregorianEnd": "November 14"
+		},
+		"overtone": {
+      "name": "Overtone",
+			"tone": "5",
+			"totem": "Peacock",
+			"gregorianStart": "November 15",
+			"gregorianEnd": "December 12"
+		},
+		"rhythmic": {
+      "name": "Rhythmic",
+			"tone": "6",
+			"totem": "Lizard",
+			"gregorianStart": "December 13",
+			"gregorianEnd": "January 9"
+		},
+		"resonant": {
+      "name": "Resonant",
+			"tone": "7",
+			"totem": "Monkey",
+			"gregorianStart": "January 10",
+			"gregorianEnd": "February 6"
+		},
+		"galactic": {
+      "name": "Galactic",
+			"tone": "8",
+			"totem": "Hawk",
+			"gregorianStart": "Feburary 7",
+			"gregorianEnd": "March 6"
+		},
+		"solar": {
+      "name": "Solar",
+			"tone": "9",
+			"totem": "Jaguar",
+			"gregorianStart": "March 7",
+			"gregorianEnd": "April 3"
+		},
+		"planetary": {
+      "name": "Planetary",
+			"tone": "10",
+			"totem": "Dog",
+			"gregorianStart": "April 4",
+			"gregorianEnd": "May 1"
+		},
+		"spectral": {
+      "name": "Spectral",
+			"tone": "11",
+			"totem": "Serpent",
+			"gregorianStart": "May 2",
+			"gregorianEnd": "May 29"
+		},
+		"crystal": {
+      "name": "Crystal",
+			"tone": "12",
+			"totem": "Rabbit",
+			"gregorianStart": "May 30",
+			"gregorianEnd": "June 26"
+		},
+		"cosmic": {
+      "name": "Cosmic",
+			"tone": "13",
+			"totem": "Turtle",
+			"gregorianStart": "June 27",
+			"gregorianEnd": "July 24"
+		}
+	},
+	"days": [
+		{
+      "name": "Dali",
+			"chakra": "crown",
+			"color": "Yellow",
+			"quality": "Target",
+			"plasma": "Thermic",
+			"gregorian": "Sunday"
+		},
+		{
+      "name": "Seli",
+			"chakra": "root",
+			"color": "Red",
+			"quality": "Flow",
+			"plasma": "Luminic",
+			"gregorian": "Monday"
+		},
+		{
+      "name": "Gamma",
+			"chakra": "brow",
+			"color": "White",
+			"quality": "Pacify",
+			"plasma": "Thermic-Luminic",
+			"gregorian": "Tuesday"
+		},
+		{
+      "name": "Kali",
+			"chakra": "sacral",
+			"color": "Blue",
+			"quality": "Establish",
+			"plasma": "Static Distension",
+			"gregorian": "Wednesday"
+		},
+		{
+      "name": "Alpha",
+			"chakra": "throat",
+			"color": "Yellow",
+			"quality": "Release",
+			"plasma": "Double-Extended Electron",
+			"gregorian": "Thursday"
+		},
+		{
+      "name": "Limi",
+			"chakra": "solar plexus",
+			"color": "Red",
+			"quality": "Purify",
+			"plasma": "Mental-Electron",
+			"gregorian": "Friday"
+		},
+    {
+      "name": "Silio",
+			"chakra": "heart",
+			"color": "White",
+			"quality": "Discharge",
+			"plasma": "Mental-Electron Neutron",
+			"gregorian": "Saturday"
+		}
+  ],
+	"colors": {
+		"Red": {
+			"motto": "Knowledge initiates view.",
+			"direction": "East"
+		},
+		"White": {
+			"motto": "Humility refines meditation.",
+			"direction": "North"
+		},
+		"Blue": {
+			"motto": "Patience transforms conduct.",
+			"direction": "West"
+		},
+		"Yellow": {
+			"motto": "Power ripens fruit.",
+			"direction": "South"
+		}
+	}
+}

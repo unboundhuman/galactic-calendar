@@ -1,0 +1,10 @@
+{
+  "name": "galactic-calendar",
+  "version": "0.2.0",
+  "description": "Outputs a kin, kin affirmation, and 13 Moon Calendar date to the console. The 13 Moon Galactic Calendar by José and Lloydine Argüelles is based on the Mayan Calendar",
+  "main": "dcal.js",
+  "private": true,
+  "devDependencies": {
+    "yargs": "^16.2.0"
+  }
+}

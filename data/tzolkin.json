@@ -1,0 +1,410 @@
+{
+  "tones": {
+    "1": {
+      "name": "Magnetic",
+      "essence": "Purpose",
+      "power": "Unify",
+      "action": "Attracting"
+    },
+    "2": {
+      "name": "Lunar",
+      "essence": "Challenge",
+      "power": "Polarize",
+      "action": "Stabilizing"
+    },
+    "3": {
+      "name": "Electric",
+      "essence": "Service",
+      "power": "Activate",
+      "action": "Bonding"
+    },
+    "4": {
+      "name": "Self-Existing",
+      "essence": "Form",
+      "power": "Define",
+      "action": "Measuring"
+    },
+    "5": {
+      "name": "Overtone",
+      "essence": "Radiance",
+      "power": "Empower",
+      "action": "Commanding"
+    },
+    "6": {
+      "name": "Rhythmic",
+      "essence": "Equality",
+      "power": "Organize",
+      "action": "Balancing"
+    },
+    "7": {
+      "name": "Resonant",
+      "essence": "Attunement",
+      "power": "Channel",
+      "action": "Inspiring"
+    },
+    "8": {
+      "name": "Galactic",
+      "essence": "Integrity",
+      "power": "Harmonize",
+      "action": "Modeling"
+    },
+    "9": {
+      "name": "Solar",
+      "essence": "Intention",
+      "power": "Pulse",
+      "action": "Realizing"
+    },
+    "10": {
+      "name": "Planetary",
+      "essence": "Manifestation",
+      "power": "Perfect",
+      "action": "Producing"
+    },
+    "11": {
+      "name": "Spectral",
+      "essence": "Liberation",
+      "power": "Dissolve",
+      "action": "Releasing"
+    },
+    "12": {
+      "name": "Crystal",
+      "essence": "Cooperation",
+      "power": "Dedicate",
+      "action": "Universalizing"
+    },
+    "13": {
+      "name": "Cosmic",
+      "essence": "Presence",
+      "power": "Endure",
+      "action": "Transcending"
+    }
+  },
+  "seals": {
+    "1": {
+      "color": "Red",
+      "name": "Dragon",
+      "number": 1,
+      "power": "Birth",
+      "action": "Nurture",
+      "essence": "Being",
+      "stage": "Input",
+      "guides": {
+        "1-6-11" : "1",
+        "2-7-12" : "13",
+        "3-8-13" : "5",
+        "4-9" : "17",
+        "5-10" : "9"
+      }
+    },
+    "2": {
+      "color": "White",
+      "name": "Wind",
+      "number": 2,
+      "power": "Spirit",
+      "action": "Communicate",
+      "essence": "Breath",
+      "stage": "Input",
+      "guides": {
+        "1-6-11" : "2",
+        "2-7-12" : "14",
+        "3-8-13" : "6",
+        "4-9" : "18",
+        "5-10" : "10"
+      }
+    },
+    "3": {
+      "color": "Blue",
+      "name": "Night",
+      "number": 3,
+      "power": "Abundance",
+      "action": "Dream",
+      "essence": "Intuition",
+      "stage": "Input",
+      "guides": {
+        "1-6-11" : "3",
+        "2-7-12" : "15",
+        "3-8-13" : "7",
+        "4-9" : "19",
+        "5-10" : "11"
+      }
+    },
+    "4": {
+      "color": "Yellow",
+      "name": "Seed",
+      "number": 4,
+      "power": "Flowering",
+      "action": "Target",
+      "essence": "Awareness",
+      "stage": "Input",
+      "guides": {
+        "1-6-11" : "4",
+        "2-7-12" : "16",
+        "3-8-13" : "8",
+        "4-9" : "20",
+        "5-10" : "12"
+      }
+    },
+    "5": {
+      "color": "Red",
+      "name": "Serpent",
+      "number": 5,
+      "power": "Life Force",
+      "action": "Survive",
+      "essence": "Instinct",
+      "stage": "Store",
+      "guides": {
+        "1-6-11" : "5",
+        "2-7-12" : "17",
+        "3-8-13" : "9",
+        "4-9" : "1",
+        "5-10" : "13"
+      }
+    },
+    "6": {
+      "color": "White",
+      "name": "Worldbringer",
+      "number": 6,
+      "power": "Death",
+      "action": "Equalize",
+      "essence": "Opportunity",
+      "stage": "Store",
+      "guides": {
+        "1-6-11" : "6",
+        "2-7-12" : "18",
+        "3-8-13" : "10",
+        "4-9" : "2",
+        "5-10" : "14"
+      }
+    },
+    "7": {
+      "color": "Blue",
+      "name": "Hand",
+      "number": 7,
+      "power": "Accomplishment",
+      "action": "Know",
+      "essence": "Healing",
+      "stage": "Store",
+      "guides": {
+        "1-6-11" : "7",
+        "2-7-12" : "19",
+        "3-8-13" : "11",
+        "4-9" : "3",
+        "5-10" : "15"
+      }
+    },
+    "8": {
+      "color": "Yellow",
+      "name": "Star",
+      "number": 8,
+      "power": "Elequance",
+      "action": "Beautify",
+      "essence": "Art",
+      "stage": "Store",
+      "guides": {
+        "1-6-11" : "8",
+        "2-7-12" : "20",
+        "3-8-13" : "12",
+        "4-9" : "4",
+        "5-10" : "16"
+      }
+    },
+    "9": {
+      "color": "Red",
+      "name": "Moon",
+      "number": 9,
+      "power": "Universal Water",
+      "action": "Purify",
+      "essence": "Flow",
+      "stage": "Process",
+      "guides": {
+        "1-6-11" : "9",
+        "2-7-12" : "1",
+        "3-8-13" : "13",
+        "4-9" : "5",
+        "5-10" : "17"
+      }
+    },
+    "10": {
+      "color": "White",
+      "name": "Dog",
+      "number": 10,
+      "power": "Heart",
+      "action": "Love",
+      "essence": "Loyalty",
+      "stage": "Process",
+      "guides": {
+        "1-6-11" : "10",
+        "2-7-12" : "2",
+        "3-8-13" : "14",
+        "4-9" : "6",
+        "5-10" : "18"
+      }
+    },
+    "11": {
+      "color": "Blue",
+      "name": "Monkey",
+      "number": 11,
+      "power": "Magic",
+      "action": "Play",
+      "essence": "Illusion",
+      "stage": "Process",
+      "guides": {
+        "1-6-11" : "11",
+        "2-7-12" : "3",
+        "3-8-13" : "15",
+        "4-9" : "7",
+        "5-10" : "19"
+      }
+    },
+    "12": {
+      "color": "Yellow",
+      "name": "Human",
+      "number": 12,
+      "power": "Free Will",
+      "action": "Influence",
+      "essence": "Wisdom",
+      "stage": "Process",
+      "guides": {
+        "1-6-11" : "12",
+        "2-7-12" : "4",
+        "3-8-13" : "16",
+        "4-9" : "8",
+        "5-10" : "20"
+      }
+    },
+    "13": {
+      "color": "Red",
+      "name": "Skywalker",
+      "number": 13,
+      "power": "Space",
+      "action": "Explore",
+      "essence": "Wakefulness",
+      "stage": "Output",
+      "guides": {
+        "1-6-11" : "13",
+        "2-7-12" : "5",
+        "3-8-13" : "17",
+        "4-9" : "9",
+        "5-10" : "1"
+      }
+    },
+    "14": {
+      "color": "White",
+      "name": "Wizard",
+      "number": 14,
+      "power": "Timelessness",
+      "action": "Enchant",
+      "essence": "Receptivity",
+      "stage": "Output",
+      "guides": {
+        "1-6-11" : "14",
+        "2-7-12" : "6",
+        "3-8-13" : "18",
+        "4-9" : "10",
+        "5-10" : "2"
+      }
+    },
+    "15": {
+      "color": "Blue",
+      "name": "Eagle",
+      "number": 15,
+      "power": "Vision",
+      "action": "Create",
+      "essence": "Mind",
+      "stage": "Output",
+      "guides": {
+        "1-6-11" : "15",
+        "2-7-12" : "7",
+        "3-8-13" : "19",
+        "4-9" : "11",
+        "5-10" : "3"
+      }
+    },
+    "16": {
+      "color": "Yellow",
+      "name": "Warrior",
+      "number": 16,
+      "power": "Intelligence",
+      "action": "Question",
+      "essence": "Fearlessness",
+      "stage": "Output",
+      "guides": {
+        "1-6-11" : "16",
+        "2-7-12" : "8",
+        "3-8-13" : "20",
+        "4-9" : "12",
+        "5-10" : "4"
+      }
+    },
+    "17": {
+      "color": "Red",
+      "name": "Earth",
+      "number": 17,
+      "power": "Navigation",
+      "action": "Evolve",
+      "essence": "Synchronicity",
+      "stage": "Matrix",
+      "guides": {
+        "1-6-11" : "17",
+        "2-7-12" : "9",
+        "3-8-13" : "1",
+        "4-9" : "13",
+        "5-10" : "5"
+      }
+    },
+    "18": {
+      "color": "White",
+      "name": "Mirror",
+      "number": 18,
+      "power": "Endlessness",
+      "action": "Reflect",
+      "essence": "Order",
+      "stage": "Matrix",
+      "guides": {
+        "1-6-11" : "18",
+        "2-7-12" : "10",
+        "3-8-13" : "2",
+        "4-9" : "14",
+        "5-10" : "6"
+      }
+    },
+    "19": {
+      "color": "Blue",
+      "name": "Storm",
+      "number": 19,
+      "power": "Self-Generation",
+      "action": "Catalyze",
+      "essence": "Energy",
+      "stage": "Matrix",
+      "guides": {
+        "1-6-11" : "19",
+        "2-7-12" : "11",
+        "3-8-13" : "3",
+        "4-9" : "15",
+        "5-10" : "7"
+      }
+    },
+    "20": {
+      "color": "Yellow",
+      "name": "Sun",
+      "number": 20,
+      "power": "Universal Fire",
+      "action": "Enlighten",
+      "essence": "Life",
+      "stage": "Matrix",
+      "guides": {
+        "1-6-11" : "20",
+        "2-7-12" : "12",
+        "3-8-13" : "4",
+        "4-9" : "16",
+        "5-10" : "8"
+      }
+    }
+  },
+  "leapDay" : {
+    "kinName" : "0.0 Hunab'Ku, a Day Out of Time",
+    "kinAffirm" : "I Coordinate in order to Potentiate\nEnumerating Totality.\nI seal the Cosmos of Unity,\nWith the Galactic tone of Emptiness.\nI am guided by my own power doubled.\nI am the activator of all galactic portals; enter me."
+  },
+  "gregorian" : [0,31,59,90,120,151,181,212,243,13,44,74],
+  "portals" : [1,20,22,39,43,50,51,58,64,69,72,77,85,88,93,96,106,107,108,109,110,111,112,113,114,115,146,147,148,149,150,151,152,153,154,155,165,168,173,176,184,189,192,197,203,210,211,218,222,239,241,260]
+}
