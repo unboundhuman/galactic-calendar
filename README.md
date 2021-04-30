@@ -9,7 +9,7 @@ The original concept for the _13 Moon Galactic Calendar_ was created by José an
 * 260-day Tzolkin count based on the Mayan Tzolkin, with a kin for each day
 * Calendar has repeating cycles in groups of 13 and 20, representing a view of time that is cyclical and fractal
 * The year begins on 26th July when the star Sirius rises with the Sun
-* To stay in sych with leap years, February 29th is a second Day Out of Time on the 13 Moon Calendar
+* To stay in sync with leap years, February 29th is a second Day Out of Time on the 13 Moon Calendar
   * _Note: There is an open issue with leap years at the moment._
 
 You can read more about the calendar at the [Law of Time](https://www.lawoftime.org) website. I am not affiliated with any of these entities; I was just inspired to create something I could use to copypasta the information for a certain date into my journal.
