@@ -4,10 +4,10 @@ A Node.js module that can be used to output a text description of the kin, kin a
 
 The original concept for the _13 Moon Galactic Calendar_ was created by José and Lloydine Argüelles and is a modern adaptation of the Mayan Calendar. The calendar has the following features that are interesting:
 
-* Perpetual 13-month, 28-day, 365-day calendar with one Day Out of Time on 25th July
+* Perpetual 13-month 365-day calendar with 28 days per month and one Day Out of Time on 25th July
 * Calendar days are always synchronized to the same Gregorian calendar days
 * 260-day Tzolkin count based on the Mayan Tzolkin, with a kin for each day
-* Calender has repeating cycles in groups of 13 and 20, representing a view of time that is cyclical and fractal
+* Calendar has repeating cycles in groups of 13 and 20, representing a view of time that is cyclical and fractal
 * The year begins on 26th July when the star Sirius rises with the Sun
 * To stay in sych with leap years, February 29th is a second Day Out of Time on the 13 Moon Calendar
   * _Note: There is an open issue with leap years at the moment._
